@@ -3,9 +3,9 @@
 Using Chia for Javascript Test Driven Development.
 - Chai is a BDD/TDD assertion library for node and the browser. It can pair with any javascript testing framework. <cite>[ChaiJS.com](http://chaijs.com/)</cite>  
 - See the tutorial [Javascript Unit Testing](https://teamtreehouse.com/library/javascript-unit-testing)
-- Writing tests with Chai's expect method first
+- Writing tests with Chai's expect method
 - Using TDD to first write a  test, then write the code.
-- Build a test suite to test a function
+- Building a test suite to test code
 - See notes [javascript-unit-testing](https://github.com/EdwardRutz/javascript-notes/blob/master/javascript-unit-testing.md)
 
 ---------------------------------------------

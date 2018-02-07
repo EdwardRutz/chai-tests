@@ -18,8 +18,7 @@ function titleCase (title) {
 }
 
 
-//Write the a test first, then the function
-//Break tests down so they test smaller parts
+// Chai Tests using expect method
 
 expect(titleCase("gone with the wind")).to.be.a("string");
 expect(titleCase("a")).to.equal("A");

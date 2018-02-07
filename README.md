@@ -1,6 +1,6 @@
 # Javascript Testing with Chai
 
-Using Chia for Javascript Test Driven Development.
+Using Chai for Javascript Test Driven Development.
 - Use TDD to write code testing a movie title to confirm it is formatted in the proper Title Case.
 - Chai is a BDD/TDD assertion library for node and the browser. It can pair with any javascript testing framework. <cite>[ChaiJS.com](http://chaijs.com/)</cite>  
 - See the tutorial [Javascript Unit Testing](https://teamtreehouse.com/library/javascript-unit-testing)
@@ -8,6 +8,18 @@ Using Chia for Javascript Test Driven Development.
 - Using TDD to first write a  test, then write the code.
 - Building a test suite to test code
 - See notes [javascript-unit-testing](https://github.com/EdwardRutz/javascript-notes/blob/master/javascript-unit-testing.md)
+
+## Code Process
+- The goal is to create a function to evaluate a move title and make sure the words are capitalized
+- First write a test to confirm the movie title is a string. Then write the code and check it with the test
+- Then break the process down into small steps, check one letter, then check one word
+- Write a test to check if the first letter in the word is capitalized
+- Then write a function and a step to capitalize the a letter 
+- Then the first letter of a word.
+- Build logic for changing one word then put it into a loop:
+  - Split each word in the string 
+  - Rejoin each word back into the title
+- <cite>[Review: Greater Expectations](https://teamtreehouse.com/library/javascript-unit-testing/introducing-unit-testing/greater-expectations)</cite>
 
 ---------------------------------------------
 
@@ -24,16 +36,26 @@ Using Chia for Javascript Test Driven Development.
 ## Setup and Install
 - Clone repo
 - Install dependencies
-- Move into the chai-tests directory and run tests on  textUtilities.js 
+- In terminal, move into the chai-tests directory and run tests on  textUtilities.js 
+  
 ```js
 node textUtilities.js
 ```
 - Chai will show a waiting prompt if all tests pass or an error message
 
+
+
+---------------------------------------------
+
 <p align="center">
  <img src="chai-error.png"/>
      <br/>
-     Chai throws an error when the movie title is not in the proper title case.
+     Chai throws an assertion error when the movie title is not in the proper title case.
+</p>
+<p align="center">
+ <img src="chai-correct.png"/>
+     <br/>
+     Chai shows a waiting console prompt when tests are correct
 </p>
 
 ---------------------------------------------

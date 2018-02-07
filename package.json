@@ -1,0 +1,14 @@
+{
+  "name": "chai-testing",
+  "version": "1.0.0",
+  "description": "Javascript TDD with Chai",
+  "main": "textUtilities.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edward Rutz",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}

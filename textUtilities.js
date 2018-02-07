@@ -7,12 +7,12 @@ var expect = require('chai').expect;  //imports the expect method from the Chai 
       var expect = chai.expect;
 */
 
-// Create an outline for the code using Chai tests and expect
-//expect(true).to.be.false; //gives an error, refactor to expect(true).to.be.true;
+
+//Use TDD to write code testing a movie title to confirm it is formatted in the proper Title Case.
 
 function titleCase (title) {
 
-  var 
+  
   //capitalize the first word of a string, add another string
   return title[0].toUpperCase() + title.substring(1);
 }

@@ -1,6 +1,7 @@
 # Javascript Testing with Chai
 
 Using Chia for Javascript Test Driven Development.
+- Use TDD to write code testing a movie title to confirm it is formatted in the proper Title Case.
 - Chai is a BDD/TDD assertion library for node and the browser. It can pair with any javascript testing framework. <cite>[ChaiJS.com](http://chaijs.com/)</cite>  
 - See the tutorial [Javascript Unit Testing](https://teamtreehouse.com/library/javascript-unit-testing)
 - Writing tests with Chai's expect method
@@ -20,7 +21,20 @@ Using Chia for Javascript Test Driven Development.
 - Node.js
 - Chai
 
+## Setup and Install
+- Clone repo
+- Install dependencies
+- Move into the chai-tests directory and run tests on  textUtilities.js 
+```js
+node textUtilities.js
+```
+- Chai will show a waiting prompt if all tests pass or an error message
 
+<p align="center">
+ <img src="chai-error.png"/>
+     <br/>
+     Chai throws an error when the movie title is not in the proper title case.
+</p>
 
 ---------------------------------------------
 

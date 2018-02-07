@@ -2,6 +2,7 @@
 
 Using Chai for Javascript Test Driven Development.
 - Use TDD to write code testing a movie title to confirm it is formatted in the proper Title Case.
+- Using Behavior Driven Development (BDD) style with the Chai expect method
 - Chai is a BDD/TDD assertion library for node and the browser. It can pair with any javascript testing framework. <cite>[ChaiJS.com](http://chaijs.com/)</cite>  
 - See the tutorial [Javascript Unit Testing](https://teamtreehouse.com/library/javascript-unit-testing)
 - Writing tests with Chai's expect method

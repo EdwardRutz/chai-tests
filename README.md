@@ -9,7 +9,7 @@ Using Chai for Javascript Test Driven Development.
 - Building a test suite to test code
 - See notes [javascript-unit-testing](https://github.com/EdwardRutz/javascript-notes/blob/master/javascript-unit-testing.md)
 
-## Code Process
+## Coding Process
 - The goal is to create a function to evaluate a move title and make sure the words are capitalized
 - First write a test to confirm the movie title is a string. Then write the code and check it with the test
 - Then break the process down into small steps, check one letter, then check one word
@@ -19,13 +19,7 @@ Using Chai for Javascript Test Driven Development.
 - Build logic for changing one word then put it into a loop:
   - Split each word in the string 
   - Rejoin each word back into the title
-- <cite>[Review: Greater Expectations](https://teamtreehouse.com/library/javascript-unit-testing/introducing-unit-testing/greater-expectations)</cite>
-
----------------------------------------------
-
-## WIP Status
-
-- Sprint 1
+- <cite>Review info in [tutorial](https://teamtreehouse.com/library/javascript-unit-testing/introducing-unit-testing/greater-expectations)</cite>
 
 ---------------------------------------------
 

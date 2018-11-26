@@ -1,8 +1,7 @@
-
 # Javascript Testing with Chai
 
 >Simple Javascript testing Chai.
->Testing to confirm a movie title is formatted in the proper Title Case.
+>- Testing to confirm a movie title is formatted in the proper Title Case.
 
 
 

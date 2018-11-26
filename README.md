@@ -1,20 +1,13 @@
 # Javascript Testing with Chai
 
-Using Chai for Javascript Test Driven Development.
-- Use TDD to write code testing a movie title to confirm it is formatted in the proper Title Case.
-- Using Behavior Driven Development (BDD) style with the Chai expect method
-- Chai is a BDD/TDD assertion library for node and the browser. It can pair with any javascript testing framework. <cite>[ChaiJS.com](http://chaijs.com/)</cite>  
-- See the tutorial [Javascript Unit Testing](https://teamtreehouse.com/library/javascript-unit-testing)
-- Writing tests with Chai's expect method
-- Using TDD to first write a  test, then write the code.
-- Building a test suite to test code
-- See notes [javascript-unit-testing](https://github.com/EdwardRutz/javascript-notes/blob/master/javascript-unit-testing.md)
+>Simple Javascript testing Chai.
+>Testing to confirm a movie title is formatted in the proper Title Case.
 
 
 
----------------------------------------------
 
 ## Dependencies
+
 - Node.js
 - Chai
 
@@ -29,9 +22,6 @@ node textUtilities.js
 - Chai will show a waiting prompt if all tests pass or an error message
 
 
-
----------------------------------------------
-
 <p align="center">
  <img src="chai-error.png"/>
      <br/>
@@ -43,10 +33,18 @@ node textUtilities.js
      Chai shows a waiting console prompt when tests are correct
 </p>
 
----------------------------------------------
+
+## Notes
+
+- Using Behavior Driven Development (BDD) style with the Chai expect method
+- Chai is a BDD/TDD assertion library for node and the browser. It can pair with any javascript testing framework. <cite>[ChaiJS.com](http://chaijs.com/)</cite>  
+- Writing tests with Chai's expect method
+
 
 ## References
-- [TeamTreehouse: Javascript Unit Testing](https://teamtreehouse.com/library/javascript-unit-testing)
+
+- [Treehouse Tutorial: Part 1: Introducing Unit Testing](https://teamtreehouse.com/library/introduction-72)
+- [Treehouse Tutorial: Javascript Unit Testing](https://teamtreehouse.com/library/javascript-unit-testing)
 - [Google Testing Blog](https://testing.googleblog.com/)
 - [Popular Tests Tools, Languages and Platforms](https://blog.testproject.io/2017/12/13/leading-test-automation-methods/)
 - [ChaiJS.com](http://chaijs.com/)

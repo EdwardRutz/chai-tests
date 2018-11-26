@@ -1,3 +1,4 @@
+
 # Javascript Testing with Chai
 
 >Simple Javascript testing Chai.
@@ -39,6 +40,20 @@ node textUtilities.js
 - Using Behavior Driven Development (BDD) style with the Chai expect method
 - Chai is a BDD/TDD assertion library for node and the browser. It can pair with any javascript testing framework. <cite>[ChaiJS.com](http://chaijs.com/)</cite>  
 - Writing tests with Chai's expect method
+
+## TDD Process
+
+- The goal is to create a function to evaluate a move title and make sure the words are capitalized
+- First write a test to confirm the movie title is a string. Then write the code and check it with the test
+- Then break the process down into small steps, check one letter, then check one word
+- Write a test to check if the first letter in the word is capitalized
+- Then write a function and a step to capitalize the a letter 
+- Then the first letter of a word.
+- Build logic for changing one word then put it into a loop:
+  - Split each word in the string 
+  - Rejoin each word back into the title
+- <cite>Review info in [tutorial](https://teamtreehouse.com/library/javascript-unit-testing/introducing-unit-testing/greater-expectations)</cite>
+
 
 
 ## References
